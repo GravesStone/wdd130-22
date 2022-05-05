@@ -1,0 +1,22 @@
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(245,220,113);
+}
+nav a:hover {
+    background-color: black;
+}
+
+
+
+
+/*Icon width*/
+.icon{
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+} 
