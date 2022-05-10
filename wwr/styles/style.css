@@ -80,12 +80,12 @@ nav a:hover {
 }
 
 .book:hover, .join:hover{
-    background-color:   rgba(245,220,113);
+    background-color:   rgba(175,175,96 );
 }
 
 .msg{
     background-color:   #afaf60;
-    text-align: center;
+    text-align:           center;
 }
 
 footer{
@@ -98,7 +98,7 @@ footer{
 /*Phase 2*/
 .home-title{
     background-color:  #1B496D;
-    color:             #1B496D;
+    color:             #afaf60;
 }
 
 h4{ 
@@ -107,7 +107,7 @@ h4{
 
 .book, 
 .join{
-    background-color:  #afaf60;
+    background-color:  #fcfbfb;
     color:             #1B496D;
 }
 /*Hover link*/
@@ -123,13 +123,13 @@ footer a:hover{
 }
 .msg h2{
     background-color:  #afaf60;
-    color:             #1B496D;
+    color:             black;
     text-align:          center;
 }
 
 .msg p{
     background-color:  #afaf60;
-    color:             #1B496D;
+    color:             black  ;
 }
 
 footer h3{
