@@ -1,21 +1,3 @@
-/*Coding for CSS requirements
-Need to delete if i finish the codes
-HTML Semantics Elements
-<article>
-<aside>
-<details>
-<figcaption>
-<figure>
-<footer>
-<header>
-<main>
-<mark>
-<nav>
-<section>
-<summary>
-<time>
-/* Starting Codes*/
-
 /*Phase 1*/
 nav a{
     text-align:         center;
@@ -67,10 +49,6 @@ nav a:hover {
 
 }*/
 /*picture alignment*/
-#mountains{
-    text-align: left;
-}
-
 
 .book{
     text-align:         left;    
@@ -158,8 +136,6 @@ footer a{
     color:             #1B496D;
     text-decoration:      none;
 }
-
-
 
 .icon {
     width: 80px;
