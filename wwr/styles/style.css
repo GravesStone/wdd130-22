@@ -22,11 +22,13 @@ nav a{
     background-color: #F5DC71;
     color:            #1B496D;
     text-decoration:    none;
+    
 }
 
 
 #background {
     height:             725px;
+    background-color: #77C4D6;
 }
 
 /*
@@ -46,12 +48,13 @@ body {
 }
 
 header {
-    background-color:   rgba(245,220,113);
+    background-color:   #F5DC71;
 }
 
 nav a:hover {
     background-color:   #afaf60;
     color:              #1B496D;
+    text-decoration:      none;
 }
 
 #hero-msg h1, 
@@ -69,9 +72,12 @@ nav a:hover {
 }
 
 
-.book,  
+.book{
+    text-align:         left;    
+    text-decoration:    none;
+}   
 .join{
-    text-align:         center;    
+    text-align:         left;    
     text-decoration:    none; 
 }
 
@@ -79,8 +85,9 @@ nav a:hover {
     text-align:         center;
 }
 
-.book:hover, .join:hover{
-    background-color:   rgba(175,175,96 );
+.book:hover, 
+.join:hover{
+    background-color:   #afaf60;
 }
 
 .msg{
@@ -89,7 +96,8 @@ nav a:hover {
 }
 
 footer{
-    background-color:   rgba(175,175,96 );
+    background-color:   #afaf60;
+    text-decoration:       none;
 }
 .home-grid{
     text-align:         center;
@@ -105,13 +113,19 @@ h4{
     color:            #1B496D;
 }
 
-.book, 
+.book{
+    background-color:  #F5DC71;
+    color:             #1B496D;
+} 
 .join{
     background-color:  #fcfbfb;
     color:             #1B496D;
 }
 /*Hover link*/
-.book:hover, 
+.book:hover{
+    background-color:  #F5DC71;
+    color:             #1B496D;
+} 
 .join:hover{
     background-color:  #F5DC71;
     color:             #1B496D;
@@ -120,6 +134,7 @@ h4{
 footer a:hover{
     background-color:  #1B496D;
     color:             #F5DC71;
+    text-decoration:     none;
 }
 .msg h2{
     background-color:  #afaf60;
@@ -135,11 +150,13 @@ footer a:hover{
 footer h3{
     background-color:  #afaf60;
     color:             #1B496D;
+    text-decoration:      none;
 }
 
 footer a{
     background-color:  #afaf60;
     color:             #1B496D;
+    text-decoration:      none;
 }
 
 
@@ -147,7 +164,14 @@ footer a{
 .icon {
     width: 80px;
 }
-footer h3, 
+footer h3{
+    background-color: #afaf60;
+    text-decoration:     none;
+}
+
 a:hover{
-    text-decoration: underline;
+    text-decoration:    none;
+}
+.div{
+    max-width:          1600px;
 }
