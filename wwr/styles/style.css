@@ -26,7 +26,7 @@ nav a{
 
 /*Color Properties*/
 body {
-    background-color:   #fcfbfb; 
+    background-color:   #1B496D; 
 }
 
 header {
@@ -42,7 +42,7 @@ nav a:hover {
 #hero-msg h1, 
 #hero-msg h4{
     text-align:            center;
-    background-color:   #fcfbfb;
+    background-color:      #F5DC71;
 }
 
 /*main section{
@@ -65,22 +65,20 @@ nav a:hover {
 
 
 .msg{
-    background-color:   #afaf60;
-    text-align:           center;
+    background-color: #afaf60;
+    text-align:         center;
 }
 
-footer{
-    background-color:   #afaf60;
-    text-decoration:       none;
-}
+
 .home-grid{
     text-align:         center;
 }
 
 /*Phase 2*/
-.home-title{
-    background-color:  #1B496D;
-    color:             #afaf60;
+.home-title {
+    color:            #1B496D;
+    margin:             10px 0 0 0;
+    background-color: #F5DC71;
 }
 
 h4{ 
@@ -109,11 +107,7 @@ h4{
     color:             #1B496D;
 }
 
-footer a:hover{
-    background-color:  #1B496D;
-    color:             #F5DC71;
-    text-decoration:     none;
-}
+
 .msg h2{
     background-color:  #afaf60;
     color:             black;
@@ -124,30 +118,43 @@ footer a:hover{
     background-color:  #afaf60;
     color:             black  ;
 }
+/*Footer*/
+footer{
+    background-color:   #afaf60;
+    text-decoration:       none;
+}
 
 footer h3{
     background-color:  #afaf60;
     color:             #1B496D;
     text-decoration:      none;
+    
 }
 
 footer a{
     background-color:  #afaf60;
     color:             #1B496D;
     text-decoration:      none;
+
 }
+footer a:hover{
+    background-color:  #1B496D;
+    color:             #F5DC71;
+    text-decoration:     none;
+}
+
+
 
 .icon {
     width: 80px;
 }
-footer h3{
-    background-color: #afaf60;
-    text-decoration:     none;
-}
+
 
 a:hover{
     text-decoration:    none;
 }
-.div{
+#content{
     max-width:          1600px;
+    margin:             auto;
+    background-color: #F5DC71;
 }
