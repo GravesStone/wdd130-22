@@ -83,12 +83,6 @@ main section img {
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
-
-
-
 /*Phase 1*/
 nav a{
     text-align:         center;
@@ -111,8 +105,8 @@ nav a{
 
 /* Images Properties*/
 #hero-img{
-  height:              auto;
-  width:               100%;  
+  height:                auto;
+  width:                 100%;  
 }
 
 /*Color Properties*/
@@ -137,7 +131,7 @@ nav a:hover {
 #hero-msg h1, 
 #hero-msg h4{
     text-align:            center;
-    background-color:      #F5DC71;
+    background-color:    #F5DC71;
 }
 
 /*main section{
