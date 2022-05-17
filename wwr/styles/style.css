@@ -1,10 +1,101 @@
+/*Add For Button border 
+Font Size
+Fits in my Logo 
+
+.home-title at 2em
+.book, .join at 18px
+.msg p at .8em
+
+sample coding css 
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+
+2nd Simple reset 
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+3rd Add Padding 
+#logo_link   padding-top: 5px;
+nav a   padding: 35px;
+.book, .join   padding: 15px 30px;
+.icon   padding-top: 10px;
+.msg   padding: 35px;
+.msg p   padding-bottom: 15px;
+footer   padding: 25px 50px;
+footer .social img   padding-top: 15px;
+
+Sample Css
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+
+4th Adding Margins 
+.home-title   margin-top: 10px;
+.book, .join   margin-top: 50px;
+.rivers-card, .camping-card, .rapids-card   margin: 200px 0;
+footer   margin-top: 200px;
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+5th button boarders
+
+Sample Syntax
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+
 /*Phase 1*/
 nav a{
     text-align:         center;
     background-color: #F5DC71;
     color:            #1B496D;
     text-decoration:    none;
-    
+    padding:            35px;
 }
 
 
@@ -26,7 +117,11 @@ nav a{
 
 /*Color Properties*/
 body {
-    background-color:   #1B496D; 
+    background-color:   #1B496D;
+    font-family:          'PT Sans Narrow', Helvetica, sans-serif;
+    font-size:            22px;
+    margin:               0;
+    padding:              0; 
 }
 
 header {
@@ -49,15 +144,16 @@ nav a:hover {
 
 }*/
 /*picture alignment*/
-
-.book{
-    text-align:         left;    
-    text-decoration:    none;
-}   
-.join{
-    text-align:         left;    
-    text-decoration:    none; 
+.rivers-card{
+    margin:                200px 0;
 }
+.camping-card{
+    margin:                200px 0;
+}
+.rapids-card{
+    margin:                200px 0;
+}
+
 
 .button-box{
     text-align:         center;
@@ -67,6 +163,8 @@ nav a:hover {
 .msg{
     background-color: #afaf60;
     text-align:         center;
+    line-height:        1.5em;
+    padding:            35px;
 }
 
 
@@ -79,22 +177,46 @@ nav a:hover {
     color:            #1B496D;
     margin:             10px 0 0 0;
     background-color: #F5DC71;
+    font-family:        'PT Sans Narrow', Helvetica, sans-serif;
+    font-size:          2em;
+    margin-top:         10px;
 }
-
+/*H Fam */
+h2 {
+    margin:             0;
+}
 h4{ 
     color:            #1B496D;
 }
 
 .book{
-    background-color:  #F5DC71;
+    background-color:  #77C4D6;
     color:             #1B496D;
     text-decoration:     none;
+    font-family:        'PT Sans Narrow', Helvetica, sans-serif;
+    font-size:           18px;
+    padding:             15px 30px;
+    margin-top:          10px;
+    border-radius:       5px;
 } 
 
 .join{
-    background-color:  #fcfbfb;
+    background-color:  #77C4D6;
     color:             #1B496D;
+    font-family:        'PT Sans Narrow', Helvetica, sans-serif;
+    font-size:           18px;
+    padding:             15px 30px;
+    margin-top:          50px;
 }
+
+.card-img {
+    border:              10px solid #afaf60;
+}
+
+main section img {
+    box-sizing:          border-box;
+}
+
 
 /*Hover link*/
 .book:hover{
@@ -117,11 +239,16 @@ h4{
 .msg p{
     background-color:  #afaf60;
     color:             black  ;
+    font-family:        'PT Sans Narrow', Helvetica, sans-serif;
+    font-size:           .8em;
+    padding-bottom:      15px;
 }
 /*Footer*/
 footer{
     background-color:   #afaf60;
     text-decoration:       none;
+    padding:               25px 50px;
+    margin-top:            200px
 }
 
 footer h3{
@@ -143,12 +270,22 @@ footer a:hover{
     text-decoration:     none;
 }
 
+footer .social img{
+    padding-top:        15px;
+}
 
 
 .icon {
-    width: 80px;
+    width:              80px;
+    padding-top:        10px;
 }
 
+#logo_link{
+    text-decoration:    none;
+    color:            #afaf60;
+    text-align:         center;
+    padding-top:        5px;
+}
 
 a:hover{
     text-decoration:    none;
@@ -158,3 +295,4 @@ a:hover{
     margin:             auto;
     background-color: #F5DC71;
 }
+
