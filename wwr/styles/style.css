@@ -183,7 +183,7 @@ h4{
     color:            #1B496D;
 }
 
-.book{
+.book, .join {
     background-color:  #77C4D6;
     color:             #1B496D;
     text-decoration:     none;
@@ -192,16 +192,8 @@ h4{
     padding:             15px 30px;
     margin-top:          10px;
     border-radius:       5px;
-} 
-
-.join{
-    background-color:  #77C4D6;
-    color:             #1B496D;
-    font-family:        'PT Sans Narrow', Helvetica, sans-serif;
-    font-size:           18px;
-    padding:             15px 30px;
-    margin-top:          50px;
 }
+
 
 .card-img {
     border:              10px solid #afaf60;
