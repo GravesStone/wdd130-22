@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap');
 /*Phase 1*/
 
 
@@ -89,7 +89,7 @@ nav a:hover {
     color:            #1B496D;
     margin:             10px 0 0 0;
     background-color: #F5DC71;
-    font-family:        'PT Sans Narrow', Helvetica, sans-serif;
+    font-family:        'Bebas Neue';
     font-size:          2em;
     margin-top:         10px;
 }
@@ -105,7 +105,7 @@ h4{
     background-color:  #77C4D6;
     color:             #1B496D;
     text-decoration:     none;
-    font-family:        'PT Sans Narrow', Helvetica, sans-serif;
+    font-family:        'Bebas Neue';
     font-size:           18px;
     padding:             15px 30px;
     margin-top:          10px;
@@ -138,12 +138,13 @@ main section img {
     background-color:  #afaf60;
     color:             black;
     text-align:          center;
+    
 }
 
 .msg p{
     background-color:  #afaf60;
     color:             black  ;
-    font-family:        'PT Sans Narrow', Helvetica, sans-serif;
+    font-family:        'Bebas Neue';
     font-size:           .8em;
     padding-bottom:      15px;
 }
