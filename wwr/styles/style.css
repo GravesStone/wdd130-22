@@ -16,9 +16,9 @@ nav a{
 #background {
     height:             725px;
     background-color: #77C4D6;
-    width: 100%;
-    grid-column: 1/11;
-    grid-row: 4/9;
+    width:              100%;
+    grid-column:        1/11;
+    grid-row:           4/9;
 }
 
 
@@ -67,14 +67,6 @@ nav a:hover {
     text-align:         center;
 }
 
-
-.msg{
-    background-color: #6f7364;
-    padding: 30px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
 
 
 .home-grid{
