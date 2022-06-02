@@ -4,6 +4,7 @@ If the property is given in the example it is in this file */
 /* Step 9 set the max-width and set the margin for the conent */
 #content {
     max-width: 1600px;
+    margin: 0 auto;
 }
 
 /* Step 10  Center items */
@@ -86,7 +87,7 @@ nav a:hover {
     background-color:  #6f7364;
     line-height:         1.5em;
     padding:             35px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow:          5px 5px 10px #6f7364;
 }
 
 footer {
@@ -246,7 +247,7 @@ nav {
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 .rivers-card{
     grid-column: 2/4;
@@ -265,17 +266,17 @@ nav {
 #background{
     grid-column: 1/11;
     grid-row: 4/9;
+    align-self: center;
 } 
 
 .mountains{
-    width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    align-self: center;
 } 
 
 .msg{
-    grid-column: 6/4;
+    grid-column: 6/10;
     grid-row: 6/7;
 }
 .card-img, .mountains {
