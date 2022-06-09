@@ -21,11 +21,45 @@ Fonts are separated by a | */
   --paragraph-color-on-color:  white; /* paragraph text on a colored background */ 
   --paragraph-background-color:#E79215  ;
   --nav-link-color:            #fff;
-  --nav-background-color:      #84591F;
+  --nav-background-color:      #2D2928 ;
   --nav-hover-link-color:      white;
   --nav-hover-background-color:#E79215;
 }
+/*The image get's larger if i didn't code this*/
+img {
+  display:               block;
+  margin:                0 auto;
+  max-width:             60%;
+}
+/*Navigation*/
 
+.nav4 {
+  list-style:             none;
+    text-decoration:      none;
+    display:              grid;
+    grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));
+    margin:               0;
+    align-items:          center;
+    background-color:   #2D2928;
+    padding:              1em;
+    font-size:            1.1em;
+
+}
+
+.nav4 a {
+  padding:                1em;
+  color:                #E79215;
+  transition:             all 1s ease-out;
+  font-family:            var(--paragraph-font);
+}
+.nav4 a:hover {
+  background-color:     #84591F;
+  color:                #fff;
+}
+.Logo{
+    width:                50%;
+    
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
