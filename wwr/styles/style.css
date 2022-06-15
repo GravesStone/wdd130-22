@@ -3,8 +3,8 @@ If the property is given in the example it is in this file */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap');
 /* Step 9 set the max-width and set the margin for the conent */
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+    max-width:      1600px;
+    margin:         0 auto;
 }
 /* Change the colors debug it */
 /* Step 10  Center items */
@@ -54,13 +54,13 @@ h2 {
 }
 
 header {
-    background-color: rgba(20, 30, 13, .7);
+    background-color: #F5DC71;
 }
 
 nav a:hover {
-    background-color: black;
+    background-color:   #1B496D;
 }
-
+/*background-color: rgba(20, 30, 13, .7);*/
 .book,
 .join {
     background-color: rgba(20, 30, 13, .7);
@@ -80,18 +80,18 @@ nav a:hover {
 }
 
 #background {
-    background-color:  rgba(20, 30, 13, .7);
+    background-color:  rgba(175, 175, 96, .7);
 }
 
 .msg {
-    background-color:  #6f7364;
+    background-color:  #afaf60;
     line-height:         1.5em;
     padding:             35px;
     box-shadow:          5px 5px 10px #6f7364;
 }
 
 footer {
-    background-color: rgba(20, 30, 13, .7);
+    background-color:   #F5DC71;
     padding:            25px 50px;
     margin-top:         200px;
     display:            flex;
@@ -105,26 +105,26 @@ footer .social img{
 
 /* Step 13  Set the font color */
 nav a:hover {
-    background-color: black;
-    color:            #d9c2a3;
+    background-color: #1B496D;
+    color:            #F5DC71;
 }
 
 nav a {
 
-    color:            #d9c2a3;
+    color:            #77C4D6;
     text-align:         center;
     padding:            35px;
 }
 
 .home-title {
-    color:            #d9c2a3;
+    color:            #77C4D6;
     font-family:       'Bebas Neue';
     font-size:          2em;
     margin-top:         10px;
 }
 
 h4 {
-    color:            #d9c2a3;
+    color:            #F5DC71;
 }
 .rivers-card, 
 .camping-card, 
@@ -133,18 +133,18 @@ h4 {
 }
 .book,
 .join {
-    background-color: #d9c2a3;
+    background-color: #F5DC71;
     color:            black;
 }
 
 .book:hover,
 .join:hover {
-    background-color: black;
-    color:            #d9c2a3;
+    background-color:   #1B496D;
+    color:            #F5DC71;
 }
 
 .msg h2 {
-    color:            #d9c2a3;}
+    color:            #1B496D;}
     
 .msg p {
     color:            black;
@@ -186,7 +186,7 @@ footer h3 a:hover {
 Remove the underline on links and add the underline to the footer links on hover only  */
 nav a {
     text-align:        center;
-    color:           #fcfbfb;
+    color:           #000;
     text-decoration:   none;
 }
 
@@ -206,7 +206,6 @@ footer a {
 }
 
 footer h3 a:hover {
-    background-color:  #77C4D6;
     color:             #1B496D;
     text-decoration:     none;
 }
@@ -216,80 +215,80 @@ header {
     grid-template-columns: 150px auto;
 }
 nav {
-    display: flex;
-    justify-content: space-around;
+    display:               flex;
+    justify-content:       space-around;
 }
 #hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    display:                grid;
+    grid-template-columns:  1fr 3fr 1fr;
 }
 #hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
+    grid-column:            1/4;
+    grid-row:               1/3;
 }
 #hero-msg h4 {
-    color: white;
+    color:                white;
 }
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px; 
+    margin-top:            -100px; 
 }
 #hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
+    grid-column:           2/3;
+    grid-row:              1/2;
+    margin-top:            100px;
 }
 #hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
+    grid-column:           1/4;
+    grid-row:              1/3;
+    z-index:               -1;
 }
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
 .rivers-card{
-    grid-column: 2/4;
-    grid-row: 2/3;
+    grid-column:           2/4;
+    grid-row:              2/3;
 } 
 
 .camping-card{
-    grid-column: 5/7;
-    grid-row: 2/3;
+    grid-column:           5/7;
+    grid-row:              2/3;
 }
 
 .rapids-card{
-    grid-column: 8/10;
-    grid-row: 2/3;
+    grid-column:           8/10;
+    grid-row:              2/3;
 } 
 #background{
-    grid-column: 1/11;
-    grid-row: 4/9;
-    align-self: center;
+    grid-column:           1/11;
+    grid-row:              4/9;
+    align-self:            center;
 } 
 
 .mountains{
-    grid-column: 2/7;
-    grid-row: 5/8;
-    align-self: center;
+    grid-column:           2/7;
+    grid-row:              5/8;
+    align-self:            center;
 } 
 
 .msg{
-    grid-column: 6/10;
-    grid-row: 6/7;
+    grid-column:           6/10;
+    grid-row:              6/7;
 }
 .card-img, .mountains {
-    width: 100%;
+    width:                 100%;
 }
 .card-img {
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    border:                10px solid #77C4D6;
+    transition:            transform .5s;
+    box-shadow:            5px 5px 10px #6f7364;
 }
 .card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
+    opacity:               .6;
+    transform:             scale(1.1);
 }
 
 @media screen and (max-width: 900px) {
@@ -333,3 +332,62 @@ nav {
         margin-top: 25px;
     }
 }
+
+/* For second page CSS */
+.about {
+    background:#afaf60;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  
+  .about .about-content {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .about .about-content .about-text {
+    flex: 1 1 50%;
+  }
+  
+  .about 
+  ,.about-content 
+  ,.about-text h1 
+  {
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .about .about-content .about-text p {
+    padding: 1rem 0;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  .about .about-content .about-text a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #8D99AE;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    color: #EDF2F4;
+    text-transform: uppercase;
+  }
+  
+  .about .about-content .about-text a:hover {
+    background: #D90429;
+    letter-spacing: .5rem;
+  }
+  
+  .about .about-content .about-img {
+    flex: 1 1 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about .about-content .about-img img {
+    width: 90%;
+    box-shadow:             5px 5px 10px #77C4D6;
+  }
