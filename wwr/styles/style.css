@@ -391,3 +391,67 @@ nav {
     width: 90%;
     box-shadow:             5px 5px 10px #77C4D6;
   }
+
+
+
+  /*grand*/
+  .grand {
+    background:#afaf60;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  
+  .grand .grand-content {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .grand .grand-content .grand-text {
+    flex: 1 1 50%;
+  }
+  
+
+
+  .grand
+  ,.grand-content 
+  ,.grand-text h1 
+  {
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .grand .grand-content .grand-text p {
+    padding: 1rem 0;
+    font-size: 25px;
+    color: #fff;
+  }
+
+
+  .grand .grand-content .grand-text a {
+    display:               inline-block;
+    padding:               1rem 2rem;
+    background:          #8D99AE;
+    border-radius:         .5rem;
+    margin-top:            1rem;
+    color:               #EDF2F4;
+    text-transform:        uppercase;
+  }
+  
+  .grand .grand-content .grand-content a:hover {
+    background:           #D90429;
+    letter-spacing:        .5rem;
+  }
+  
+  .grand .grand-content .grand-img {
+    flex:                   1 1 1%;
+    display:                flex;
+    align-items:            center;
+    justify-content:        center;
+    text-align:             center;
+  }
+  
+  .grand .grand-content .grand-img img {
+    width:                  90%;
+    box-shadow:             5px 5px 10px #77C4D6;
+  }
