@@ -18,6 +18,7 @@ nav a {
 #hero-msg h1,
 #hero-msg h4 {
     text-align:     center;
+    color:        #fcfbfb;
 }
 
 .card-img {
@@ -454,4 +455,20 @@ nav {
   .grand .grand-content .grand-img img {
     width:                  90%;
     box-shadow:             5px 5px 10px #77C4D6;
-  }
+    }
+/*Contact Us - contactus.html*/
+
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+}
+.moveDown {
+    margin-top: 3em;
+}
