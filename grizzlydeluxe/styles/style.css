@@ -1,9 +1,9 @@
 /*Import Font Section*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&:wght@400;700&display=swap');
 
 #content {
-    max-width:      1600px;
+    max-width:      1800px;
     margin:         0 auto;
 }
 body {
@@ -72,8 +72,7 @@ nav a:hover {
     text-align: center;
 }
 #hero-img {
-    width:       100%;
-  
+    width:       100%; 
     display:     flex;
 }
 
