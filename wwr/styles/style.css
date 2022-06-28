@@ -219,10 +219,7 @@ nav {
     display:               flex;
     justify-content:       space-around;
 }
-#hero {
-    display:                grid;
-    grid-template-columns:  1fr 3fr 1fr;
-}
+
 #hero-box {
     grid-column:            1/4;
     grid-row:               1/3;
