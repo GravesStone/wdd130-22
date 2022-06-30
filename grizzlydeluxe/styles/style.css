@@ -81,70 +81,45 @@ nav a:hover {
 
 
 /*Second Content About*/
-
 .about {
     background:#E79215;
     padding-top: 30px;
     padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 1em 2em;
+    gap: 1em;
   }
-  
-  .about .about-content {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .about .about-content .about-text {
-    flex: 1 1 50%;
-  }
-  
-  .about 
-  ,.about-content 
-  ,.about-text h1 
-  {
-    color: #000;
-    font-size: 2rem;
-    text-align: center;
-  }
-  
-  .about .about-content .about-text p {
-    padding: 1rem 0;
-    font-size: 30px;
-    color: #fff;
-  }
-  
-  .about .about-content .about-text a {
-    display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: .6rem;
-    margin-top: 1rem;
-    color: #EDF2F4;
-    text-transform: uppercase;
-    background-color: #2D2928;
-    text-decoration:     none;
-    font-family:        'Bebas Neue';
-    font-size:           18px;
-  }
-  
-  .about .about-content .about-text a:hover {
-    background:         #4F3C24;
-    letter-spacing: 1rem;
-  }
-  
-  .about .about-content .about-img {
-    flex: 1 1 1%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 
-  }
-  
-  .about .about-content .about-img img {
-    width: 70%;
-    box-shadow:             5px 5px 10px #4F3C24;
-  }
-  .button-box {
-    text-align:     center;
+.about-text {
+  grid-column: 1;
+  grid-row: 2;
+}
+.button-box {
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: center;
+  padding: 1rem 2rem;
+  border-radius: .6rem;
+  margin-top: 1rem;
+  color: #EDF2F4;
+  text-transform: uppercase;
+  background-color: #2D2928;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+}
+.about-img {
+  grid-row: 1/5;
+  grid-column: 2;
+  max-width: fit-content;
+}
+img {
+  max-width: 100%;
+}
+.button-box:hover {
+  background: #4F3C24;
+  letter-spacing: 1rem;
 }
 
 /*Footer Section*/

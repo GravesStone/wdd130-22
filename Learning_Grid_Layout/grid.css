@@ -2,18 +2,26 @@
 START grid layout extra credit
 ******************************************************************************/
 
+body{
+  background-color: gray;
+}
 * {
     box-sizing: border-box;
   }
   .grid1 {
-    
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(4, 100px);
+   
   }
   
   .grid1 h1 {
-    
+    text-align: left;
   }
   
   .grid2 {
+    border: 100px;
     
   }
   .grid2 h2 {
@@ -44,6 +52,7 @@ START grid layout extra credit
   }
   
   form {
+    background-color: #fff;
     
   }
   
