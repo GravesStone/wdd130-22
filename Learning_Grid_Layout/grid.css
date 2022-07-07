@@ -24,7 +24,7 @@ body{
     border: 100px;
     padding:1rem;
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(3, 1fr 2fr);
     background-color: #fff;
   }
   .grid2 h2 {
@@ -34,7 +34,7 @@ body{
 
   .grid3 {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(3, 1fr 2fr);
     padding:1rem;
   }
   
@@ -45,7 +45,7 @@ body{
   
   .grid4 {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(3, 1fr 2fr);
     padding:1rem;
   }
   
