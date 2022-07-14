@@ -243,74 +243,46 @@ header {
 
 /*Foods.html*/
 
-.Phase1{
+.card-img, .mountains {
+    width:                 100%;
+}
+.card-img {
+    border:                1px solid #4F3C24;
+    transition:            transform .3s;
+    box-shadow:            5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity:               .6;
+    transform:             scale(1.1);
+}
+
+.Phase{
     display:               grid;
     grid-template-columns: repeat(10, 1fr);
 }
 .adobo-card{
     grid-column:           2/4;
-    grid-row:              2/3;
+    grid-row:              2;
 }
 .steak-card{
     grid-column:           5/7;
-    grid-row:              2/3;
+    grid-row:              2;
 }
 .shawarma-card{
     grid-column:           8/10;
-    grid-row:              2/3;
+    grid-row:              2;
 } 
-
 
 .liempo-card{
     grid-column:           2/4;
-    grid-row:              2/3;
+    grid-row:              3;
 }
 .burger-card{
     grid-column:           5/7;
-    grid-row:              2/3;
+    grid-row:              3;
 }
 .pizza-card{
-    grid-column:           8/5;
-    grid-row:              2/3;
+    grid-column:           8/10;
+    grid-row:              3;
 } 
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .liempo-card, .burger-card, .pizza-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
-    }
-}
+
